@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>882</width>
+    <height>695</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Registro de Miembro</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>771</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout">
+    <property name="horizontalSpacing">
+     <number>0</number>
+    </property>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Fecha de Nacimiento</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Grado de estudios</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="apellido1Txt"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Nombre:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nombreTxt"/>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Apellido Materno</string>
+      </property>
+     </widget>
+    </item>
+    <item row="29" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Horario de Trabajo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Apellido Paterno:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="27" column="0">
+     <widget class="QLabel" name="label_14">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Direccion de Trabajo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Telefono</string>
+      </property>
+     </widget>
+    </item>
+    <item row="25" column="0">
+     <widget class="QLabel" name="label_13">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Lugar de trabajo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="24" column="0">
+     <widget class="QCheckBox" name="trabajaCheckBox">
+      <property name="text">
+       <string>Trabaja</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLineEdit" name="apellido2Txt"/>
+    </item>
+    <item row="6" column="1">
+     <widget class="QDateEdit" name="birthDate"/>
+    </item>
+    <item row="6" column="2">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Lugar de nacimiento</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="QLineEdit" name="lugarTxt"/>
+    </item>
+    <item row="6" column="4">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Genero</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="QComboBox" name="generoCombo">
+      <item>
+       <property name="text">
+        <string>Masculino</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Femenino</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="telTxt">
+      <property name="inputMethodHints">
+       <set>Qt::ImhNone</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="2">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Email</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="3">
+     <widget class="QLineEdit" name="emailTxt"/>
+    </item>
+    <item row="12" column="4">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Direccion</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="5">
+     <widget class="QLineEdit" name="direccTxt"/>
+    </item>
+    <item row="18" column="1">
+     <widget class="QComboBox" name="estudiosCombo">
+      <item>
+       <property name="text">
+        <string>Primaria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Secundaria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Preparatoria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Universidad</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="18" column="2">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Ocupacion</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="3">
+     <widget class="QLineEdit" name="ocupaTxt"/>
+    </item>
+    <item row="18" column="4">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Estado Civil:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="18" column="5">
+     <widget class="QComboBox" name="estadoCivilCombo">
+      <item>
+       <property name="text">
+        <string>Soltero</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Casado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Viudo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Divorciado</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="25" column="1">
+     <widget class="QLineEdit" name="lugarTrabajoTxt">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="27" column="1">
+     <widget class="QLineEdit" name="direccionTrabajoTxt">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="29" column="1">
+     <widget class="QLineEdit" name="horarioTrabajoTxt">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>20</y>
+     <width>140</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Registro de miembro</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>610</y>
+     <width>160</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="cancelButton">
+      <property name="text">
+       <string>Cancelar</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="registerButton">
+      <property name="text">
+       <string>Registrar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

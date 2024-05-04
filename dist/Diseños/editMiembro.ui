@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>756</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>721</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <item row="2" column="5">
+     <widget class="QLineEdit" name="lugarTrabajoTXT"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_10">
+      <property name="text">
+       <string>Direccion de Trabajo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Apellido Materno: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Apellido Paterno: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Lugar de nacimiento: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_8">
+      <property name="text">
+       <string>Grado de estudios:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>Estado Civil:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Lugar de trabajo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="lugarNacimientoTXT"/>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="apellidoPTXT"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nombtre: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="QLineEdit" name="direccionTXT"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="nacimientoDate"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="nombreTXT"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Ocupacion: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLineEdit" name="apellidoMTXT"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Fecha de nacimiento: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Direccion: </string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="QComboBox" name="civilCombo">
+      <item>
+       <property name="text">
+        <string>Soltero</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Casado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Viudo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Solo</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="ocupacionTXT"/>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="direccionTrabajoTXT"/>
+    </item>
+    <item row="3" column="2">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>Horario de trabajo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QLineEdit" name="horarioTrabajoTXT"/>
+    </item>
+    <item row="2" column="3">
+     <widget class="QComboBox" name="estudiosCombo">
+      <item>
+       <property name="text">
+        <string>Primaria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Secundaria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Preparatoria</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Univerisdad</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>60</y>
+     <width>198</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>Ingrese ID</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="IDTXT"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="searchButton">
+      <property name="text">
+       <string>Buscar</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>30</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Editar Miembro</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>430</y>
+     <width>541</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="1">
+     <widget class="QDateEdit" name="dateEspiritu"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Lugar de recibimiento</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QDateEdit" name="dateBautismo"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>Fecha de bautismo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>Fecha de B. Espiritu Santo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Lugar de bautismo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLineEdit" name="lugarBauTXT"/>
+    </item>
+    <item row="1" column="3">
+     <widget class="QLineEdit" name="lugarEspTXT"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>660</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancelar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>520</y>
+     <width>185</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="1" column="1">
+     <widget class="QComboBox" name="capituloCombo">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jueves</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Domingo</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>Oraciones:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_20">
+      <property name="text">
+       <string>Capitulo:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="oracionCombo">
+      <item>
+       <property name="text">
+        <string>Ninguno</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Lunes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Martes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Miercoles</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jueves</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Viernes</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Sabado</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Domingo</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QTimeEdit" name="timeOracion"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="saveButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>660</y>
+     <width>76</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Guardar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="gridLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>610</y>
+     <width>421</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="PhotoURL"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QPushButton" name="PhotoButton">
+      <property name="text">
+       <string>Buscar Foto</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="Foto">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>540</y>
+     <width>161</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Foto</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
